@@ -23,7 +23,7 @@ function App() {
         data={query =>
           new Promise((resolve, reject) => {
             // prepare your data and then call resolve like this:
-            let url = 'http://172.18.0.54:3000/location?'
+            let url = 'http://localhost:3000/location?'
             //searching
             if (query.search) {
               url += `q=${query.search}`
